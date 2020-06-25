@@ -34,7 +34,7 @@ public class FirstExample {
 		// .observeOn(Schedulers.newThread())
 		// .subscribe(data->System.out.println(Thread.currentThread().getName()+":"+data));
 
-		
+		// hello.
 		Observable<String> source_create = Observable.create((ObservableEmitter<String> emitter) -> {
 			emitter.onNext("12");
 			emitter.onNext("123");
